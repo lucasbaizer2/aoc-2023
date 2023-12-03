@@ -11,7 +11,7 @@ make build
 
 ### Prerequisites
 
-GNU make and Go and required.
+GNU make and [Go](https://go.dev/doc/install) are required.
 
 ## Usage
 
