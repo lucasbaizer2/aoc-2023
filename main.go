@@ -32,7 +32,7 @@ func main() {
 
 			inputTxt, err := os.ReadFile(fmt.Sprintf("inputs/day%d/%s.txt", day, input))
 			if err != nil {
-				fmt.Fprintf(os.Stderr, "input file '%s.txt' does not exist for day %d", input, day)
+				fmt.Fprintf(os.Stderr, "input file '%s.txt' does not exist for day %d\n", input, day)
 				os.Exit(1)
 			}
 
